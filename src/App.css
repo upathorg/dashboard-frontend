@@ -1,10 +1,108 @@
-.App {
-  text-align: center;
+.body{
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#logoname{
+  font-size: medium;
+  padding-top: 10px;
+}
+#dashleft {
+  text-align: center;
+  color: #282c34;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+}
+#dash1{
+  display: flex;
+  font-weight: 300;
+  padding: 20px;
+  font-size: small;
+  
+}
+
+#dash2{
+  display: flex;
+  font-weight: 300;
+  margin-top: 100px;
+  padding: 20px 0px 0px 20px;
+}
+#typehere{
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 5px;
+  border-color: #f4f4f4;
+}
+#others{
+  border-color: #f4f4f4;
+  background-color: #f4f4f4;
+}
+#others1{
+  background-image: linear-gradient(to bottom right,#fde9e6,#f1afab, #eef7e1);
+  margin-top: 35px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px cornflowerblue;
+}
+#others2{
+  margin-top: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+#course1{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 30px;
+}
+#activities{
+  margin-top: 30px;
+  
+}
+#date{
+  
+  border-color: rgb(179, 179, 212);
+  border-radius: 6px;
+  width: 140px;
+  text-align: center;
+  box-shadow: 5px 5px 10px cornflowerblue;
+}
+
+#profile{
+  display: flex;
+  border-color: rgb(179, 179, 212);
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 5px 5px 10px cornflowerblue;
+  padding-top: 5px;
+  margin-top: 20px;
+  font-size: x-small;
+}
+#p1{
+  margin-bottom: 20px;
+}
+#profile1{
+  border-radius: 5px;
+  height: 40px;
+  /* width: 5px; */
+  padding-bottom: 10px;
+  margin-left: 40px;
+  align-items: center;
+  /* border-color: rgb(179, 179, 212); */
+  box-shadow: 5px 5px 10px cornflowerblue;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+.name{
+  font-size: x-small;
+}
+#d3{
+  margin-top: 40px;
+}
+#progress{
+  
+  margin-top: 137px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,20 +111,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
